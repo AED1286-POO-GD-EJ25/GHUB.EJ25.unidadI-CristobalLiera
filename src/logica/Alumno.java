@@ -1,24 +1,31 @@
 package logica;
 
 public class Alumno {
-  //Atributos
-  int numeroControl;
   String nombre;
-  String apellido;
-  char genero;
-  String carrera;
-  int semestreActual;
+  int num_Control;
+  double promedio;
+  String carrera; 
 
-  //Operaciones
-  public float obtenerPromedio() {
-    return 0.0f;
+  public Alumno(String nombre, int num_Control, double promedio, String carrera) {
+    this.nombre = nombre;
+    this.num_Control = num_Control;
+    this.promedio = promedio;
+    this.carrera = carrera;
   }
 
   public void cargarMateria() {
-    
+    System.out.println("Estoy cargando materias");
   }
 
-  public boolean cargarTicket(String problema) {
-    return false;
+  public boolean modificarStatus() {
+    return true;
+  }
+
+  public void revisarHistorial() {
+    System.out.println("Estoy revisando mi historial");
+  }
+
+  public double obtenerPromedio() {
+    return this.promedio;
   }
 }
