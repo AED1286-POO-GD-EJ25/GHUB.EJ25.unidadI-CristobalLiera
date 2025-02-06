@@ -2,10 +2,13 @@ package miPrincipal;
 
 public class Principal {
     public String getGreeting() {
-        return "Hello World!";
+        return "Hi, this is a salute from Codespaces!";
     }
 
     public static void main(String[] args) {
-        System.out.println(new Principal().getGreeting());
+        Principal principal = new Principal();
+        String saludo = principal.getGreeting();
+        System.out.println(saludo);
+
     }
 }

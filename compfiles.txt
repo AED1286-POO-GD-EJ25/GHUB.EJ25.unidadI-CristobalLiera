@@ -1,2 +1,4 @@
-./miPrincipal/Principal.java
 ./miTest/AppTest.java
+./miPrincipal/Principal.java
+./src/logica/Alumno.java
+./src/logica/Principal.java
