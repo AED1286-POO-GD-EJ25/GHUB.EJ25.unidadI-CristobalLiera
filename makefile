@@ -10,3 +10,5 @@ test:
 	java -jar lib/junit-platform-console-standalone-1.5.2.jar --class-path build --scan-class-path
 clean:
 	rm -r ./build/*
+run-logica:
+	java -cp build ./src/logica/Principal.java
