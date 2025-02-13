@@ -1,9 +1,11 @@
 package miPrincipal;
 
 public class Mochila {
+    //Atributos
     String color, tamaño;
     int bolsas;
 
+    //Constructores
     public Mochila() {
 
     }
@@ -14,6 +16,7 @@ public class Mochila {
         this.bolsas = bolsas;
     }
 
+    //Métodos y Funciones
     public void abrir() {
         System.out.println("Estoy abriendo la mochila");
     }

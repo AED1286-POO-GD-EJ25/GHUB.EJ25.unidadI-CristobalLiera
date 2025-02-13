@@ -1,11 +1,14 @@
 package miPrincipal;
 
 public class Alumno {
+    //Atributos
     String nombre;
     int num_Control;
     double promedio;
     String carrera; 
 
+
+    //Constructores
     public Alumno() {
 
     }
@@ -17,6 +20,7 @@ public class Alumno {
         this.carrera = carrera;
     }
 
+    //Métodos y Funciones
     public void cargarMateria() {
         System.out.println("Estoy cargando materias");
     }
