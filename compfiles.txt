@@ -1,4 +1,4 @@
-./miPrincipal/Mochila.java
 ./miPrincipal/Alumno.java
+./miPrincipal/Mochila.java
 ./miPrincipal/Principal.java
 ./miTest/AppTest.java
